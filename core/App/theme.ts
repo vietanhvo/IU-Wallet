@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native'
 import { SvgProps } from 'react-native-svg'
 
-import Logo from './assets/img/logo.svg'
+import Logo from './assets/img/iu-logo.svg'
 
 interface SVGAssets {
   logo: React.FC<SvgProps>
@@ -121,7 +121,7 @@ export const zeroOpacity = 0.0
 export const borderWidth = 2
 
 const BrandColors: BrandColors = {
-  primary: '#42803E',
+  primary: '#1B9ACC',
   primaryDisabled: `rgba(53, 130, 63, ${lightOpacity})`,
   secondary: '#FFFFFFFF',
   secondaryDisabled: `rgba(53, 130, 63, ${heavyOpacity})`,
@@ -583,14 +583,14 @@ export const Assets = {
   },
   img: {
     logoPrimary: {
-      src: require('./assets/img/logo-large.png'),
+      src: require('./assets/img/iu-logo.png'),
       aspectRatio: 1,
       height: '33%',
       width: '33%',
       resizeMode: 'contain',
     },
     logoSecondary: {
-      src: require('./assets/img/logo-large.png'),
+      src: require('./assets/img/iu-logo.png'),
       aspectRatio: 1,
       height: '33%',
       width: '33%',
